@@ -52,4 +52,13 @@
                 <goal>docker:build</goal>
             </goals>
         </action>
+    <action>
+            <actionName>CUSTOM-Docker Build Linux</actionName>
+            <displayName>Docker Build Linux</displayName>
+            <goals>
+                <goal>sudo</goal>
+                <goal>mvn</goal>
+                <goal>docker:build</goal>
+            </goals>
+        </action>
 </actions>
